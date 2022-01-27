@@ -1,0 +1,45 @@
+body,
+h1,
+h2,
+p,
+button {
+	margin: 0;
+}
+
+.container {
+	text-align: center;
+	padding: 30px;
+}
+
+.title {
+	font-size: 40px;
+	color: rgb(95, 15, 171);
+	margin-bottom: 5px;
+}
+
+.message {
+	font-size: 20px;
+	color: rgb(255, 13, 0);
+}
+
+.test {
+	font-size: 20px;
+	margin: 40px 0 10px 0;
+}
+
+.button {
+	text-transform: uppercase;
+	display: block;
+	padding: 10px 15px;
+	margin: auto;
+	cursor: pointer;
+	background: rgb(128, 56, 200);
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background: rgb(69, 44, 136);
+	transform: scale(1.2);
+}
